@@ -1,0 +1,69 @@
+{
+    // Geral Config 
+    "window.menuBarVisibility": "toggle",
+
+    
+    // Workbench Config 
+    "workbench.iconTheme": "symbols",
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Min Dark",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.list.smoothScrolling": true,
+    "workbench.activityBar.location": "hidden", // comment if you want to hide activity bar
+    
+    
+    // Symbol Config
+    "symbols.hidesExplorerArrows": false,
+    
+    
+    // Terminal Config
+    "breadcrumbs.enabled": false,
+
+
+    // Editor Config
+    "editor.inlineSuggest.enabled": true,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.lineHeight": 1.8,
+    "editor.fontWeight": "normal",
+    "editor.renderLineHighlight": "gutter",
+    "editor.fontLigatures": true,
+    "editor.semanticHighlighting.enabled": false,
+    "editor.minimap.autohide": true,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    // "editor.rulers": [80, 120], // uncomment if you want to add rulers in your editor
+    
+    
+    // Explore File Config
+    "explorer.compactFolders": false,
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+    "package.json": ".eslint*, .prettier*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*, .yarn*, yarn.lock",
+    "tailwind.config.js": "tailwind.config*, postcss.config*",
+    "next.config.js": "next*",
+    ".env.local": ".env*",
+    ".env": ".env*"
+    },
+    "editor.fontSize": 15,
+
+    
+    // APC Pluggin Config
+    // "apc.font.family": "JetBrains Mono", // uncomment if you want to use custom font
+    "apc.header": {
+      "height": 36,
+    },
+    "apc.listRow": {
+      "height": 24
+    },
+    "apc.stylesheet": {
+      ".title-label > h2": "display: none",
+      ".editor-actions": "display: none",
+      ".pane-body": "padding: 5px"
+    },
+
+    
+    // Terminal Config
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "terminal.external.windowsExec": "wt"
+}
